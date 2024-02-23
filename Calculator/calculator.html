@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <!-- calculation will be display here-->
+        <input id="tunjuk" type="text" /><br />
+        <button value="1" onclick="characterDisplay(value)">1</button>
+        <button value="2" onclick="characterDisplay(value)">2</button>
+        <button value="3" onclick="characterDisplay(value)">3</button>
+        <button value="+" onclick="characterDisplay(value)">+</button>
+        <br />
+        <button value="4" onclick="characterDisplay(value)">4</button>
+        <button value="5" onclick="characterDisplay(value)">5</button>
+        <button value="6" onclick="characterDisplay(value)">6</button>
+        <button value="-" onclick="characterDisplay(value)">-</button>
+        <br />
+        <button value="7" onclick="characterDisplay(value)">7</button>
+        <button value="8" onclick="characterDisplay(value)">8</button>
+        <button value="9" onclick="characterDisplay(value)">9</button>
+        <button value="*" onclick="characterDisplay(value)">x</button>
+        <br />
+        <button value="0" onclick="characterDisplay(value)">0</button>
+        <button value="." onclick="characterDisplay(value)">.</button>
+        <button value="" onclick="clearDisplay(value)">C</button>
+        <button value="/" onclick="characterDisplay(value)">÷</button>
+        <button value="=" onclick="calculate()">=</button>
+
+        <script src="calculator.js"></script>
+    </body>
+</html>
